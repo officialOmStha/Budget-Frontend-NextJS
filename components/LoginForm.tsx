@@ -36,7 +36,7 @@ const LoginForm = () => {
             localStorage.setItem("access", data.access);
             localStorage.setItem("refresh", data.refresh);
 
-            router.push("/");
+            router.push("/dashboard");
 
         } catch (error) {
             console.log("Login Failed", error);
